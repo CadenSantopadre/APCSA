@@ -3,9 +3,10 @@ package IntegerList;
 import java.util.ArrayList;
 
 public class IntegerList {
-    ArrayList<Integer> ints = new ArrayList<>();//Instance variable
+    ArrayList<Integer> ints;//Instance variable
 
     public IntegerList(){
+        ints = new ArrayList<>();
         //Constructor
     }
 
