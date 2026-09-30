@@ -36,5 +36,8 @@ public class IntegerListRunner {
 
         int sLar = il.getSecondLargest();
         System.out.println(sLar);
+
+        int removed = il.removeBelowThreshold(12);
+        System.out.println(removed);
     }
 }
