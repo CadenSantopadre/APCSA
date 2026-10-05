@@ -7,6 +7,7 @@ public class StringManipulation
         this.str = str;//Initailize instance variable
     }
 
+    @Override
     public String toString(){
         return str;
     }
