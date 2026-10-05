@@ -73,7 +73,7 @@ public class SimpleLoops
         else{
             start=b;
             end=a;
-        }
+        } 
 
         int total = 0;
         for(int i=start; i<end; i++){
