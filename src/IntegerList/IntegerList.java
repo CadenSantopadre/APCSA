@@ -76,6 +76,9 @@ public class IntegerList {
                 //Then set the new largest
                 largest = ints.get(i);
             }
+            else if(ints.get(i) > sLargest && ints.get(i) != largest){
+                sLargest = ints.get(i);
+            }
         }
         return sLargest;
     }
