@@ -94,6 +94,16 @@ public class IntegerList {
         }
         return count;
     }
+    //Extra way to do countOdds()
+    public int countOdds2(){
+        int count = 0;
+        for(int num : ints){ //Like python... for item in list
+            if(num % 2 == 1){
+                count++;
+            }
+        }
+        return count;
+    }
 
     public boolean isIncreasing() {
         //Assume it's increasing for now, when we prove it wrong ONCE, then it's false
